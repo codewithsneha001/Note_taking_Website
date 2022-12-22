@@ -1,0 +1,93 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: maroon;
+    line-height: 2;
+}
+
+header form {
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+}
+
+form>* {
+    margin-bottom: 5px;
+    outline: none;
+    font-size: 1.4rem;
+    padding: 7px;
+    border: 1px solid;
+    border-radius: 3px;
+}
+
+form textarea {
+    padding: 7px 0 40px 5px;
+    font-family: inherit;
+}
+
+::placeholder {
+    font-size: 1.3rem;
+}
+
+form button {
+    background-color: var(--color-secondary);
+    font-size: 1.6rem;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+form button:hover {
+    background-color: var(--color-primary);
+}
+
+.notes {
+    padding: 1rem;
+    background-color: white;
+    border-radius: 5px;
+    margin: 1rem 0;
+}
+
+.note-counter,
+.note-text {
+    font-size: 1.4rem;
+}
+
+.note-title {
+    font-size: 1.6rem;
+}
+
+.note-btn {
+    background-color: red;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.edit-btn {
+    background-color: purple;
+    font-size: 15px;
+    cursor: pointer;
+}
